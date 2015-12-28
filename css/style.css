@@ -1,0 +1,37 @@
+.container {
+    max-width: 280px;
+    border: 2px solid gray;
+    margin-top: 10px;
+    
+    min-height: 100%;
+}
+.btn {
+    width: 60px;
+    height: 60px;
+}
+
+#display {
+    border: 2px solid gray;
+    max-width : 250px;
+    margin-bottom: 10px;
+    text-align: right;
+    
+    font-size: 20px;
+}
+#number {
+    margin-right: 10px;
+}
+#siggy {
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+
+/*-------------colors-------------*/
+#AC {
+    background-color: #D46A6A;
+}
+.num {
+    background-color: #2A2727;
+    color: white;
+}
