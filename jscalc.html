@@ -8,10 +8,10 @@
     <title>JS Calculator</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
-        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
-    
+
     <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +21,7 @@
     <![endif]-->
   </head>
   <body>
-        
+
     <div class="full">
     <div class="container">
       <!-- AC CE % / -->
@@ -30,57 +30,57 @@
           <div id="display"><span id="number"></span></div></center>
       </div>
       <div class="row">
-            <center><button class="btn btn-default target" id="AC">AC</button>
-            <button class="btn btn-default target">CE</button>
-            <button class="btn btn-default target">%</button>
-            <button class="btn btn-default target">/</button></center> 
+            <center><button class="btn btn-default target AC" id="AC">AC</button>
+            <button class="btn btn-default target" id="CE">CE</button>
+            <button class="btn btn-default target" id="percent">%</button>
+            <button class="btn btn-default target" id="divide">/</button></center>
       </div>
-      
+
       <!-- 7 8 9 X -->
       <div class="row">
-            <center><button class="btn btn-default target num">7</button>
-            <button class="btn btn-default target num">8</button>
-            <button class="btn btn-default target num">9</button>
-            <button class="btn btn-default target">x</button></center>
+            <center><button class="btn btn-default target num" id="7">7</button>
+            <button class="btn btn-default target num" id="8">8</button>
+            <button class="btn btn-default target num" id="9">9</button>
+            <button class="btn btn-default target" id="multiply">x</button></center>
       </div>
-      
+
       <!-- 4 5 6 - -->
       <div class="row">
-            <center><button class="btn btn-default target num">4</button>
-            <button class="btn btn-default target num">5</button>
-            <button class="btn btn-default target num">6</button>
-            <button class="btn btn-default target">-</button></center>
+            <center><button class="btn btn-default target num" id="4">4</button>
+            <button class="btn btn-default target num" id="5">5</button>
+            <button class="btn btn-default target num" id="6">6</button>
+            <button class="btn btn-default target" id="subtract">-</button></center>
       </div>
-      
+
       <!-- 1 2 3 + -->
       <div class="row">
-            <center><button class="btn btn-default target num">1</button>
-            <button class="btn btn-default target num">2</button>
-            <button class="btn btn-default target num">3</button>
-            <button class="btn btn-default target">+</button></center>
+            <center><button class="btn btn-default target num" id="1">1</button>
+            <button class="btn btn-default target num" id="2">2</button>
+            <button class="btn btn-default target num" id="3">3</button>
+            <button class="btn btn-default target" id="add">+</button></center>
       </div>
-      
+
       <!-- 0 . = + -->
       <div class="row">
-            <center><button class="btn btn-default target num">0</button>
-            <button class="btn btn-default target">.</button>
-            <button class="btn btn-default target">=</button>
-            <button class="btn btn-default target">MOD</button></center>
+            <center><button class="btn btn-default target num" id="0">0</button>
+            <button class="btn btn-default target" id="decimal">.</button>
+            <button class="btn btn-default target" id="equal">=</button>
+            <button class="btn btn-default target" id="mod">MOD</button></center>
       </div>
       <div class="row">
         <center><p id="siggy">Andy Alameddine</p></center>
       </div>
-      
+
     </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
-        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
-        
+
     <script src="js/script.js"></script>
   </body>
 </html>
